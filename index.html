@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>Zadatak 1</title>
-    <script src="logika.js"></script>
-    <style>
-        #btnProcitaj {
+    <head>
+        <title>Zadatak 2</title>
+        <script src="eksterniJsFajl.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>  
+            .btn {
             background-color: #1F8833;
             color: white;
             font-size: 16px;
             border: none;
             border-radius: 5px;
             padding: 10px;
-        }
-    </style>
-</head>
-
-<body>
-    <button id="btnProcitaj" type="button" onclick="OnClick()">Procitaj citat</button>
-</body>
-
+            margin-left: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="font-size: 60px; font-weight:bold;">Select option:</h1>
+        <button id="btnSqrt" class="btn" type="button" onclick="MojaFunkcija()">SQRT</button>
+        <button id="btnSin" class="btn" type="button" onclick="MojaFunkcija()">SIN</button>
+        <button id="btnCos" class="btn" type="button" onclick="MojaFunkcija()">COS</button>
+        <button id="btnRound" class="btn" type="button" onclick="MojaFunkcija()">ROUND</button>
+    </body>
 </html>
